@@ -61,6 +61,7 @@ hr{
 .container img{
     display: block;
     margin: auto;
+    max-width: 400px;
 }
 .container h1{
     text-align: center;
