@@ -34,9 +34,10 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
-.navigation .container-fluid {
-    display: flex;
-    align-items: right;
+.navigation .nav-pills {
+    /* display: block; */
+   text-align: right;
+   padding-right: 0.5rem;
 }
 .navigation{
     background-color: var(--primary-color);
@@ -54,4 +55,12 @@ hr{
 }
 .navigation .active{
     font-weight: bold;
+}
+
+.container img{
+    display: block;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
 }
