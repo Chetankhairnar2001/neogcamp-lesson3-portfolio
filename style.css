@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif; 
+    margin: 1rem 1rem;
+}
+
+:root{
+    --primary-color:red;
+    --secondary-color:purple;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+}
+.secondary-link{
+    color: var(--secondary-color);
+}
+.link{
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+}
