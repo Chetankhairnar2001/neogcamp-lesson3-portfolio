@@ -6,7 +6,8 @@ body{
 }
 
 :root{
-    --primary-color:#34D399;
+    /* --primary-color:#34D399; */
+    --primary-color:#2DD4BF;
     --secondary-color:purple;
 }
 
@@ -63,4 +64,11 @@ hr{
 }
 .container h1{
     text-align: center;
+}
+
+.hero .heading{
+  padding-top: 1rem;
+}
+.hero .heading span{
+    color: var(--primary-color);
 }
