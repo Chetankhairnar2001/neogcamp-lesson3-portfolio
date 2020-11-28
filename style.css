@@ -34,3 +34,24 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
+.navigation .container-fluid {
+    display: flex;
+    align-items: right;
+}
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.6rem 1rem;
+}
+.navigation .brand{
+    font-weight: bolder;
+}
+
+.navigation a{
+    text-decoration: none;
+}
+.navigation,.navigation a{
+    color: white;
+}
+.navigation .active{
+    font-weight: bold;
+}
