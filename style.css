@@ -22,8 +22,7 @@ hr{
 }
 .secondary-link{
     color: var(--secondary-color);
-    margin: 0rem 1rem;
-
+    border-radius: 1rem;
     border:5px solid var(--primary-color);
 }
 .link{
