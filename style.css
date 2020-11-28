@@ -9,6 +9,7 @@ body{
     /* --primary-color:#34D399; */
     --primary-color:#2DD4BF;
     --secondary-color:purple;
+    --off-white:rgb(230, 225, 225);
 }
 
 hr{
@@ -43,6 +44,8 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     padding: 0.6rem 1rem;
+    max-width: 650px;
+    margin: auto;
 }
 .navigation .brand{
     font-weight: bolder;
@@ -57,7 +60,13 @@ hr{
 .navigation .active{
     font-weight: bold;
 }
-
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
 .container img{
     display: block;
     margin: auto;
@@ -72,4 +81,13 @@ hr{
 }
 .hero .heading span{
     color: var(--primary-color);
+}
+.section h2{
+    text-align: center;
+}
+.section.ow{
+  background-color: var(--off-white);
+}
+.section{
+    padding:1rem;
 }
