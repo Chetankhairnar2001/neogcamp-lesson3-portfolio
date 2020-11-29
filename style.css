@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 body{
     font-family: 'Montserrat', sans-serif; 
     margin: 0.5rem 0.5rem;
+    margin: auto;
 }
 
 :root{
@@ -60,6 +62,10 @@ hr{
 .navigation .active{
     font-weight: bold;
 }
+nav  .container-fluid img{
+    max-width: 40px;
+    max-height: 20px;
+}
 .container{
     padding: 0rem 1rem;
 }
@@ -72,6 +78,7 @@ hr{
     margin: auto;
     max-width: 400px;
 }
+
 .container h1{
     text-align: center;
 }
@@ -90,4 +97,24 @@ hr{
 }
 .section{
     padding:1rem;
+}
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
