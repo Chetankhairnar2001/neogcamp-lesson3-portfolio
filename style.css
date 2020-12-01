@@ -5,11 +5,22 @@ body{
     font-family: 'Montserrat', sans-serif; 
     margin: 0.5rem 0.5rem;
     margin: auto;
-    background-image:url('images/portfolio(2).jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   
 }
+.main{
+    background:url('images/portfolio (2).jpg');
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-size: cover;
+    height: 100vh;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index:-1 ;
+    opacity: 0.6;
+}
+
 
 :root{
     /* --primary-color:#34D399; */
